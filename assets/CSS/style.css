@@ -1,0 +1,44 @@
+nav {
+    box-shadow: 1px 1px 8px 3px grey;
+}
+
+h2 {
+    text-align: center;
+}
+
+h5 {
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.card span {
+    text-align: center;
+}
+
+.card img {
+    height: 50%;
+}
+
+button {
+    background-color: black;
+    color: white;
+    border-radius: 50px;
+    border: none;
+    padding: 0.5rem;
+}
+
+button:hover {
+    background-color: blue;
+    box-shadow: 1px 1px 8px 3px black;
+}
+
+.offcanvas span{
+    font-weight: bold;
+}
+
+#productCart img {
+    width: 30%;
+    height: 30%;
+}
