@@ -20,8 +20,9 @@ function renderBooks(books) {
             <img src='${book.img}' class='img-fluid'>
             <h5>${book.title}</h5>
             <span>${book.price}€</span>
-            <span>
-                <button class='mt-2 addCart' data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions">Aggiungi al carrello</button>
+            <span class='mt-3'>
+                <a class='detailBook' href='./dettagli.html?asin=${book.asin}'>Anteprima</a>
+                <button class='mt-3 addCart' data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions">Aggiungi al carrello</button>
                 <button class='mt-3 hide'>Nascondi</button>
             </span>`;
         bookDiv.classList.add('card', 'col-6', 'col-md-4', 'col-lg-2', 'gy-5', 'gx-3');

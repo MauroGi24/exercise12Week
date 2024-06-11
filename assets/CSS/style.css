@@ -29,6 +29,20 @@ button {
     padding: 0.5rem;
 }
 
+.detailBook {
+    background-color: black;
+    color: white;
+    border-radius: 50px;
+    padding: 0.5rem;
+    text-decoration: none;
+    margin-top: 1rem;
+}
+
+.detailBook:hover {
+    background-color: blue;
+    box-shadow: 1px 1px 8px 3px black;
+}
+
 button:hover {
     background-color: blue;
     box-shadow: 1px 1px 8px 3px black;
@@ -41,4 +55,19 @@ button:hover {
 #productCart img {
     width: 30%;
     height: 30%;
+}
+
+#detBook img {
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+    width: 20%;
+}
+
+#detBook a {
+    color: white;
+    text-decoration: none;
+}
+
+#detBook button{
+    margin-top: 1rem;
 }
